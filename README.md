@@ -20,8 +20,6 @@ Installation
 
 Usage
 
-jsx
-
 import React from 'react';
 import AudioVisualizer from './path-to-AudioVisualizer';
 
