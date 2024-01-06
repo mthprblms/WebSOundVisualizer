@@ -22,17 +22,17 @@ Usage
 
     import React from 'react';
     import AudioVisualizer from './path-to-AudioVisualizer';
-
-function App() {
-  return (
-    <div>
-      <h1>Your Music Visualizer</h1>
-      <AudioVisualizer />
-    </div>
-  );
-}
-
-export default App;
+        
+        function App() {
+          return (
+            <div>
+              <h1>Your Music Visualizer</h1>
+              <AudioVisualizer />
+            </div>
+          );
+        }
+        
+        export default App;
 
 Features
 
