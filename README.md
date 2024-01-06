@@ -40,49 +40,13 @@ Features
 
     Dynamic Interaction: The visualizer adapts to changes in the music's tempo, volume, and frequencies, providing an engaging experience.
 
-Props
-
-The AudioVisualizer component can accept the following optional props:
-
-    color: Customize the color scheme of the visualizer.
-
-jsx
-
-<AudioVisualizer color="#ff0000" />
-
-Customization
-
-Feel free to customize the component to suit your project's aesthetic and functional requirements. You can modify the visualizer's appearance, add additional features, or integrate it with other audio sources.
-Usage with Music Player
-
-Integrate the visualizer with a music player by capturing the audio data and passing it as a prop to the AudioVisualizer component.
-
-jsx
-
-import React, { useRef } from 'react';
-import AudioVisualizer from './path-to-AudioVisualizer';
-import MyMusicPlayer from './path-to-YourMusicPlayer';
-
-function App() {
-  const audioRef = useRef();
-
-  return (
-    <div>
-      <h1>Your Music Visualizer</h1>
-      <MyMusicPlayer audioRef={audioRef} />
-      <AudioVisualizer audioData={audioRef.current} />
-    </div>
-  );
-}
-
-export default App;
 
 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Acknowledgments
-
-    Three.js for the 3D rendering library.
-    react-three-fiber for the React bindings for Three.js.
+    This project is licensed under the MIT License - see the LICENSE file for details.
+    Acknowledgments
+    
+        Three.js for the 3D rendering library.
+        react-three-fiber for the React bindings for Three.js.
 
 Feel free to contribute to the project or provide feedback by creating issues or pull requests. Enjoy visualizing your music with Three.js!
