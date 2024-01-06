@@ -20,8 +20,8 @@ Installation
 
 Usage
 
-import React from 'react';
-import AudioVisualizer from './path-to-AudioVisualizer';
+    import React from 'react';
+    import AudioVisualizer from './path-to-AudioVisualizer';
 
 function App() {
   return (
